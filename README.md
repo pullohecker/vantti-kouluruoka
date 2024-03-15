@@ -22,4 +22,4 @@ options:
 
   The script needs smtplib, selenium and chromedriver. Additionally you need to have a running smtp server. I myself use Mailgun, but you can also setup your own smtp server. Mailgun is completely free, but does have some minor restrictions.
 
-  If you want, you can schedule the script to run every morning so you get the days food info every day. If you are lazy, you can run time_ruokapalvelu.py. It sends the food info every day at 7 o'clock in the morning. I do warn that time_ruokapalvelu.py is SUPER shitty and I do recommend just scheduling the execution of ruokapalvelu.py. Also, your machine has to be constantly on.
+  If you want, you can schedule the script to run every morning so you get the days food info every day. If you are lazy, you can run time_ruokapalvelu.py. It sends the food info every day at 7 o'clock in the morning. I do warn that time_ruokapalvelu.py is SUPER shitty and I do recommend just scheduling the execution of ruokapalvelu.py. Also, your machine has to be constantly on if you run time_ruokaservice.py
