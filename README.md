@@ -1,5 +1,5 @@
 # vantti-kouluruoka
-a python script that sends the food info of Vantti school food of the current day to your email. The code is for Koivukylä school, but I checked that Vanttis food is the same everywhere.
+a python script that sends the food info of Vantti school food of the current day to your email. The code is for Koivukylä school, but I checked that Vanttis food is the same everywhere. Be aware that the emails go automatically to the spam folder if your smtp server does not have an ssl certificate. To change this, go to the spam folder and mark the email safe.
 
 
 usage: python3 ruokaservice.py [-h] server port username password mailbox
