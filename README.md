@@ -5,13 +5,19 @@ a python script that sends the food info of Vantti school food of the current da
 usage: python3 ruokaservice.py [-h] server port username password mailbox
 
 positional arguments:
+
   server      The address or ip of your smtp server
+
   port        The port of your smtp server
+  
   username    The username of your smtp server
+  
   password    The password of you'r smtp server
+  
   mailbox     The email address that you want the food info to be sent
 
 options:
+  
   -h, --help  show this help message and exit
 
   The script needs smtplib, selenium and chromedriver. Additionally you need to have a running smtp server. I myself use Mailgun, but you can also setup your own smtp server. Mailgun is completely free, but does have some minor restrictions.
